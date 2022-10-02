@@ -66,5 +66,3 @@ int arraySortedCheck(int arr[], int n){
     // printf("The numbers arranged in ascending order are given below \n");
     //     for (i = 0; i < n; ++i)
     //         printf("%d\n", array[i]);
- 
-    // }
