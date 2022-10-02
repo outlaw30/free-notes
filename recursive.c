@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 int arraySortedCheck(int arr[], int n);
 int recursiveBinarySearch(int array[], int start_index, int end_index, int element){
    if (end_index >= start_index){
@@ -65,4 +66,4 @@ int arraySortedCheck(int arr[], int n){
 
     // printf("The numbers arranged in ascending order are given below \n");
     //     for (i = 0; i < n; ++i)
-    //         printf("%d\n", array[i]);
+   
