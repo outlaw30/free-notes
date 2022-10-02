@@ -62,7 +62,3 @@ int arraySortedCheck(int arr[], int n){
    return arraySortedCheck(arr, n-1);
 }
 
-
- 
-    //     for (i = 0; i < n; ++i)
-         printf("%d\n", array[i]);
