@@ -22,7 +22,7 @@ int main(void){
             scanf("%d", &array[i]);
 
             if(arraySortedCheck(array, n)){
-      printf("Array is in sorted order\n");
+      printf("Array is in sorted order!!!!\n");
    }
    else
      printf("The array is not in sorted order \n");
