@@ -1,4 +1,7 @@
-#include <stdio.h>
+
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
 #include<stdlib.h>
 
 int arraySortedCheck(int arr[], int n);
