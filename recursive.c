@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 #include<math.h>
 int arraySortedCheck(int arr[], int n);
 int recursiveBinarySearch(int array[], int start_index, int end_index, int element){
