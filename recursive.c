@@ -1,6 +1,9 @@
-#include <stdio.h>
+
+#include<stdio.h>
 #include<math.h>
 #include<conio.h>
+#include<stdlib.h>
+
 int arraySortedCheck(int arr[], int n);
 int recursiveBinarySearch(int array[], int start_index, int end_index, int element){
    if (end_index >= start_index){
@@ -23,7 +26,7 @@ int main(void){
             scanf("%d", &array[i]);
 
             if(arraySortedCheck(array, n)){
-      printf("Array is in sorted order\n");
+      printf("Array is in sorted order!!!!\n");
    }
    else
      printf("The array is not in sorted order \n");
