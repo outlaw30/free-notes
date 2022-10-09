@@ -1,7 +1,5 @@
 
 #include<stdio.h>
-#include<math.h>
-#include<conio.h>
 
 
 int arraySortedCheck(int arr[], int n);
@@ -67,3 +65,7 @@ int arraySortedCheck(int arr[], int n){
    return arraySortedCheck(arr, n-1);
 }
 
+
+
+
+printf("HIIIII");
