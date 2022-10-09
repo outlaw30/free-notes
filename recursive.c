@@ -1,8 +1,6 @@
 
 #include<stdio.h>
-#include<math.h>
-#include<conio.h>
-#include<stdlib.h>
+
 
 int arraySortedCheck(int arr[], int n);
 int recursiveBinarySearch(int array[], int start_index, int end_index, int element){
@@ -66,5 +64,3 @@ int arraySortedCheck(int arr[], int n){
       return 0;
    return arraySortedCheck(arr, n-1);
 }
-
-printf("hello world");
