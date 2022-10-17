@@ -4,7 +4,8 @@
 
 int arraySortedCheck(int arr[], int n);
 int recursiveBinarySearch(int array[], int start_index, int end_index, int element){
-   if (end_index >= start_index){
+   if (end_index >= start_index)
+   {
       int middle = start_index + (end_index - start_index )/2;
       if (array[middle] == element)
          return middle;
@@ -14,7 +15,8 @@ int recursiveBinarySearch(int array[], int start_index, int end_index, int eleme
    }
    return -1;
 }
-int main(void){
+int main(void)
+{
    int i, j, a, n, array[30];
         printf("Enter the number of elements \n");
         scanf("%d", &n);
@@ -64,4 +66,4 @@ int arraySortedCheck(int arr[], int n){
       return 0;
    return arraySortedCheck(arr, n-1);
 }
-//for hactoberfest
+
