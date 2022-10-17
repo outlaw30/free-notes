@@ -14,7 +14,8 @@ int recursiveBinarySearch(int array[], int start_index, int end_index, int eleme
    }
    return -1;
 }
-int main(void){
+int main(void)
+{
    int i, j, a, n, array[30];
         printf("Enter the number of elements \n");
         scanf("%d", &n);
