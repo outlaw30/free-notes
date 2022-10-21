@@ -66,4 +66,4 @@ int arraySortedCheck(int arr[], int n){
       return 0;
    return arraySortedCheck(arr, n-1);
 }
-
+printf("helllllooooo");
